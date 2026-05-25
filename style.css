@@ -50,7 +50,10 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--background-color);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--text-main);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
@@ -68,7 +71,7 @@ body {
 /* Header */
 .main-header {
     text-align: center;
-    padding: 3rem 1rem 2rem;
+    padding: 3rem 1rem 0px;
 }
 
 .logo {
